@@ -1,2 +1,3 @@
-# my_essentials
-Essentials
+# My Essentials
+
+A setup for myself for a new mac
