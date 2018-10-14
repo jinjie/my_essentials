@@ -16,3 +16,6 @@ brew install mariadb
 
 # Sublime Text
 brew install sublime-text
+
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
