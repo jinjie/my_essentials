@@ -15,7 +15,16 @@ fi
 brew install mariadb
 
 # Sublime Text
-brew install sublime-text
+brew cask install sublime-text
+
+# Install sequel pro
+brew cask install sequel-pro
+
+# Install Cocoa Rest Client
+brew cask install cocoarestclient
+
+# Install Notable
+brew cask install notable
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
