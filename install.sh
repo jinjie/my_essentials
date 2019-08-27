@@ -28,3 +28,8 @@ brew cask install notable
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Install and setup ClamAV
+brew install clamav
+echo "DatabaseMirror database.clamav.net" > /usr/local/etc/clamd.conf
+/usr/local/bin/freshclam
