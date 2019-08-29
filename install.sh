@@ -28,6 +28,7 @@ brew cask install notable
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+echo "* Add cron for virus definitions update: 0 0 */3 * * /usr/local/bin/freshclam -v"
 
 # Install and setup ClamAV
 brew install clamav
